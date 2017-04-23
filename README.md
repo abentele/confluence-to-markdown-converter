@@ -1,6 +1,6 @@
 # Confluence to Markdown converter
 
-This project is developing a tool to to convert Confluence pages into Markdown.
+This project is developing a tool to convert Confluence pages into Markdown.
 
 # The goal
 
