@@ -1,3 +1,5 @@
+
+
 # Introduction
 
 Take a look at [this question](http://stackoverflow.com/questions/3819192/is-there-a-javascript-api-for-xml-binding-analog-to-jaxb-for-java) on Stackoverflow which incepted the development of Jsonix.
@@ -26,4 +28,3 @@ Jsonix is inspired by and based on [JAXB](https://jaxb.dev.java.net/) which is a
 Jsonix mappings are heavily influenced by [JAXB annotations](http://download.oracle.com/javaee/5/api/javax/xml/bind/annotation/package-summary.html). 
 
 Jsonix schema compiler is based on XJC, schema compiler from the [JAXB Reference Implementation](https://jaxb.dev.java.net/).
-

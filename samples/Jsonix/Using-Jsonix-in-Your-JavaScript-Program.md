@@ -1,21 +1,20 @@
+
+
 # Using Jsonix in your JavaScript program
 
 * [[Download|Downloads]] Jsonix or [install](https://npmjs.org/package/xmldom) it with npm in node.js
 * Add/import/include/require Jsonix scripts into your program/page.
 * [[Write|Mapping XML to JavaScript Objects]] or [[generate|Generating mappings from XML Schema]] Jsonix mappings.
 * Create Jsonix context from these mappings.
+
   * To marshal (serialize JavaScript objects as XML):
+
     * Create marshaller.
     * Use `marshalString`, `marshalDocument` etc. methods of marshaller.
-
-
   * To unmarshal (parse JavaScript objects from XML):
+
     * Create unmarshaller.
     * Use `unmarshalString`, `unmarshalDocument`, `unmarshalURL` etc. methods of unmarshaller.
-
-
-
-
 
 ## Including Jsonix scripts in a web page
 
@@ -171,4 +170,3 @@ unmarshaller.unmarshalFile(fileName,
 At the moment, the file will be loaded as a string, then parsed into DOM document and finally unmarshalled from the parsed document.
 
 The optional argument `options` is passed directly to the `fs.readFile(...)` call. See [node.js FileSystem API](http://nodejs.org/api/fs.html).
-

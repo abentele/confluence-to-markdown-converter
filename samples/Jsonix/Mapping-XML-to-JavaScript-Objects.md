@@ -1,3 +1,5 @@
+
+
 # Mapping XML to JavaScript Objects
 
 Jsonix needs XML/object mappings to operate. These mappings can be created manually or generated from an XML Schema. Either way, they are just simple JavaScript objects which define how XML should be mapped to properties of objects and vice versa.  
@@ -44,6 +46,4 @@ Now we can enumerate basic components of Jsonix mappings:
 * [Element declarations](#element-declarations)
 
 These components will be described in the following sections.
-
-
 

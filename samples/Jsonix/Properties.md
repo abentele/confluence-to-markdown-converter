@@ -1,3 +1,5 @@
+
+
 ## Properties
 
 Properties define contents of a complex type. From one hand, they configure the structure of a JavaScript object which is mapped by this complex type. From the other hand, they describe, how this object will be presented in an XML form.
@@ -6,25 +8,22 @@ Jsonix allows you to map character content, attributes and elements using follow
 
 * Character content
 	
+
   * [#Value property](#value-property)
-
-
 * Attributes
 	
+
   * [#Attribute property](#attribute-property)
   * [#Any attribute property](#any-attribute-property)
-
-
 * Elements
 	
+
   * [#Element property](#element-property)
   * [#Elements property](#elements-property)
   * [#Element map property](#element-map-property)
   * [#Element reference property](#element-reference-property)
   * [#Element references property](#element-references-property)
   * [#Any element property](#any-element-property)
-
-
 
 ### Basic property characteristics
 
@@ -302,14 +301,13 @@ Usage constraints:
 * Complex type can define at most one value property.
 * Value property can be used with [attribute](#attribute-property) or [any attribute](#any-attribute-property) properties. It can not be used with:
 	
+
   * [#Element property](#element-property)
   * [#Elements property](#elements-property)
   * [#Element reference property](#element-reference-property)
   * [#Element references property](#element-references-property)
   * [#Element references property](#element-references-property)
   * [#Mixed properties](#mixed-properties) without wrapper elements
-
-
 
 ##### Defining complex type with simple content
 
@@ -526,10 +524,9 @@ Usage constraints:
 
 * Element property can not be used with:
 	
+
   * [Value properties](#value-property)
   * [Mixed properties](#mixed-properties) without wrapper elements
-
-
 
 ##### Element property example - single element
 
@@ -1185,21 +1182,18 @@ Any element property handles unmarshalling as follows:
 
 * When unmarshalling character data:
 	
+
   * If this property is mixed, character data is unmarshalled as string.
   * Otherwise an error is reported.
-
-
 * When unmarshalling an element:
 	
+
   * If this property allows typed objects, check if this element is know to the context via [element mapping](#element-mappings).
 		
+
     * If it is known, unmarshal as typed object.
-
-
   * Otherwise if this property allows DOM, simply return current element as a DOM element.
   * Otherwise report an error.
-
-
 
 Below is the correspondence between `xs:any` processing types and `allowTypedObject`/`allowDom` processing settings.
 
@@ -1297,4 +1291,3 @@ Since we have declared global elements `string` and `value` in our module, these
 ```
 
 [Fiddle](http://jsfiddle.net/lexi/F2Hj6/).
-

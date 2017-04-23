@@ -1,3 +1,5 @@
+
+
 ## Element declarations
 
 Every valid XML document has a single root element which is called the *document element*. When unmarshalling an XML document, Jsonix runtime needs to know onto which type does the root element of this document map. For instance that the element `value` maps onto the type `One.ValueType` in the module `One`.
@@ -78,4 +80,3 @@ Onto the type `MyModule.MyType`. So when Jsonix unmarshals such an element it wi
 You mostly need to declare only your global elements in `MyModule.elementInfos`. All other elements, attributes etc. mappings are done via properties.
 
 However, you may also need to use `MyModule.elementInfos` to declare [scoped elements](#scoped-elements).
-

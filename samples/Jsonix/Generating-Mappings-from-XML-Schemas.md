@@ -1,3 +1,5 @@
+
+
 # Generating mappings from XML Schema
 
 You need a Java environment to generate mappings from XML Schemata.
@@ -134,4 +136,3 @@ You can generate compact mappings using the following additional switch:
 ```
 -Xjsonix-compact
 ```
-

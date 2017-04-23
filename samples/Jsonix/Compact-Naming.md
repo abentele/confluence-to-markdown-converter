@@ -1,3 +1,5 @@
+
+
 ## Compact Naming
 
 Supported by Jsonix since version 2.1.0 and Jsonix Schema Compiler from version 2.2.0.
@@ -216,4 +218,3 @@ Five = {
 	eis : [ /* ... */ ]
 };
 ```
-

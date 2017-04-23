@@ -1,3 +1,5 @@
+
+
 ## Types
 
 A concept of *type* is a central concept in Jsonix mappings. Element declarations map XML elements onto types; most of the properties have a target type and so on.
@@ -474,4 +476,3 @@ turns into:
 #### Defining complex types by restriction
 
 Definition of complex types by restriction is not supported.
-

@@ -1,3 +1,5 @@
+
+
 ## Modules
 
 Jsonix module is essentially just a simple JavaScript object which declares a set of XML/object mappings.
@@ -145,4 +147,3 @@ var Qualified = {
 [Fiddle](http://jsfiddle.net/lexi/Dgv9p/).  
 
 Which is a little bit more cumbersome.
-
